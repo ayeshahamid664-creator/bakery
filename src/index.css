@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF9F2;
+  color: #3D2817;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F5E6D3;
+}
+::-webkit-scrollbar-thumb {
+  background: #8B5E3C;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  @apply bg-sweet-brown text-white px-8 py-3 rounded-full font-semibold hover:bg-sweet-dark transition-all duration-300 hover:scale-105 shadow-lg;
+}
+
+.btn-outline {
+  @apply border-2 border-sweet-brown text-sweet-brown px-8 py-3 rounded-full font-semibold hover:bg-sweet-brown hover:text-white transition-all duration-300;
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-bold text-sweet-dark text-center mb-4;
+}
+
+.section-subtitle {
+  @apply text-center text-gray-600 mb-12 max-w-2xl mx-auto;
+}
