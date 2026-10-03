@@ -1,10 +1,18 @@
+// ============================================================
+// CAKES — 20 Products
+// ============================================================
 export const cakes = [
   {
     id: 1,
     name: 'Custom Theme Cake',
     description: 'Personalized cake with fondant/non-edible toppers',
     image: '/images/cakes/cake1.jpg',
-    details: ['Vanilla / Chocolate / Marble flavours', 'Custom weight available', 'Themed design', 'Fondant or printed topper'],
+    details: [
+      'Vanilla / Chocolate / Marble flavours',
+      'Custom weight available',
+      'Themed design',
+      'Fondant or printed topper',
+    ],
   },
   {
     id: 2,
@@ -67,10 +75,88 @@ export const cakes = [
     name: 'Cupcake Bouquet',
     description: 'Beautiful bouquet of cupcakes',
     image: '/images/cakes/cake10.jpg',
-    details: ['Chocolate/Vanilla cupcakes', 'Oreo/colored cream toppings', 'Custom wrapping'],
+    details: [
+      'Chocolate/Vanilla cupcakes',
+      'Oreo/colored cream toppings',
+      'Custom wrapping',
+    ],
+  },
+  // ============ NAYE 10 PRODUCTS ============
+  {
+    id: 11,
+    name: 'Red Velvet Cake',
+    description: 'Classic red velvet with cream cheese frosting',
+    image: '/images/cakes/cake11.jpg',
+    details: ['Red velvet flavour', 'Cream cheese frosting', 'Custom size available'],
+  },
+  {
+    id: 12,
+    name: 'Pineapple Cake',
+    description: 'Fresh pineapple cake with whipped cream',
+    image: '/images/cakes/cake12.jpg',
+    details: ['Fresh pineapple chunks', 'Whipped cream', 'Custom message'],
+  },
+  {
+    id: 13,
+    name: 'Black Forest Cake',
+    description: 'Traditional black forest with cherries',
+    image: '/images/cakes/cake13.jpg',
+    details: ['Chocolate sponge', 'Fresh cherries', 'Chocolate shavings'],
+  },
+  {
+    id: 14,
+    name: 'Blueberry Cheesecake',
+    description: 'Creamy cheesecake topped with blueberry',
+    image: '/images/cakes/cake14.jpg',
+    details: ['Creamy cheese layer', 'Blueberry topping', 'Custom size'],
+  },
+  {
+    id: 15,
+    name: 'Chocolate Truffle Cake',
+    description: 'Rich chocolate truffle delight',
+    image: '/images/cakes/cake15.jpg',
+    details: ['Belgian chocolate', 'Truffle layer', 'Custom design'],
+  },
+  {
+    id: 16,
+    name: 'Butterscotch Cake',
+    description: 'Sweet butterscotch with caramel drizzle',
+    image: '/images/cakes/cake16.jpg',
+    details: ['Butterscotch flavour', 'Caramel drizzle', 'Crunchy praline'],
+  },
+  {
+    id: 17,
+    name: 'Fondant Theme Cake',
+    description: 'Fully fondant-covered themed cake',
+    image: '/images/cakes/cake17.jpg',
+    details: ['Custom fondant design', 'Edible toppers', 'Any theme'],
+  },
+  {
+    id: 18,
+    name: 'Two-Tier Cake',
+    description: 'Elegant two-tier celebration cake',
+    image: '/images/cakes/cake18.jpg',
+    details: ['Two tiers', 'Custom flavours per tier', 'Custom toppers'],
+  },
+  {
+    id: 19,
+    name: 'Cupcake Set',
+    description: 'Assorted cupcakes set (Qty 6)',
+    image: '/images/cakes/cake19.jpg',
+    details: ['Qty 6 cupcakes', 'Custom toppings', 'Chocolate/Vanilla/Red Velvet'],
+  },
+  {
+    id: 20,
+    name: 'Groom/Bride Cake',
+    description: 'Custom cake for wedding showers',
+    image: '/images/cakes/cake20.jpg',
+    details: ['Custom shape', 'Personalized message', 'Elegant design'],
   },
 ]
 
+// ============================================================
+// BROWNIES — 20 Products
+// ============================================================
 export const brownies = [
   {
     id: 1,
@@ -142,8 +228,82 @@ export const brownies = [
     image: '/images/brownies/brownie10.jpg',
     details: ['Heart shape', 'Custom message', 'Gift packing'],
   },
+  // ============ NAYE 10 PRODUCTS ============
+  {
+    id: 11,
+    name: 'Triple Chocolate Brownie',
+    description: 'Loaded with three types of chocolate',
+    image: '/images/brownies/brownie11.jpg',
+    details: ['Dark + Milk + White chocolate', 'Rich fudgy texture', 'Custom packing'],
+  },
+  {
+    id: 12,
+    name: 'Caramel Brownie',
+    description: 'Brownie with gooey caramel swirl',
+    image: '/images/brownies/brownie12.jpg',
+    details: ['Caramel swirl', 'Sea salt topping', 'Custom size'],
+  },
+  {
+    id: 13,
+    name: 'Walnut Brownie',
+    description: 'Brownie loaded with crunchy walnuts',
+    image: '/images/brownies/brownie13.jpg',
+    details: ['Crunchy walnuts', 'Fudgy center', 'Custom packing'],
+  },
+  {
+    id: 14,
+    name: 'Red Velvet Brownie',
+    description: 'Red velvet brownie with cream cheese',
+    image: '/images/brownies/brownie14.jpg',
+    details: ['Red velvet flavour', 'Cream cheese swirl', 'Custom size'],
+  },
+  {
+    id: 15,
+    name: 'Blondie Brownie',
+    description: 'White chocolate blondie brownie',
+    image: '/images/brownies/brownie15.jpg',
+    details: ['White chocolate', 'Chewy texture', 'Custom toppings'],
+  },
+  {
+    id: 16,
+    name: 'Peanut Butter Brownie',
+    description: 'Brownie with peanut butter swirl',
+    image: '/images/brownies/brownie16.jpg',
+    details: ['Peanut butter swirl', 'Rich chocolate', 'Custom packing'],
+  },
+  {
+    id: 17,
+    name: 'Mint Chocolate Brownie',
+    description: 'Refreshing mint chocolate brownie',
+    image: '/images/brownies/brownie17.jpg',
+    details: ['Mint flavour', 'Chocolate chips', 'Custom packing'],
+  },
+  {
+    id: 18,
+    name: 'Brownie Cupcakes',
+    description: 'Brownie cupcakes (Qty 6)',
+    image: '/images/brownies/brownie18.jpg',
+    details: ['Qty 6', 'Frosted tops', 'Custom toppings'],
+  },
+  {
+    id: 19,
+    name: 'Brownie Slab Custom',
+    description: 'Custom message on brownie slab',
+    image: '/images/brownies/brownie19.jpg',
+    details: ['Custom message', 'Any size', 'Premium packing'],
+  },
+  {
+    id: 20,
+    name: 'Brownie Gift Box',
+    description: 'Premium brownie gift box (Qty 12)',
+    image: '/images/brownies/brownie20.jpg',
+    details: ['Qty 12', 'Assorted flavours', 'Gift wrapping'],
+  },
 ]
 
+// ============================================================
+// TREAT BOXES — 20 Products
+// ============================================================
 export const treatBoxes = [
   {
     id: 1,
@@ -215,8 +375,82 @@ export const treatBoxes = [
     image: '/images/treatboxes/box10.jpg',
     details: ['Chocolate coated', 'Custom packing', 'Gift ready'],
   },
+  // ============ NAYE 10 PRODUCTS ============
+  {
+    id: 11,
+    name: 'Dry Fruit Gift Box',
+    description: 'Premium dry fruits in elegant box',
+    image: '/images/treatboxes/box11.jpg',
+    details: ['Almonds, cashews, pistachios', 'Premium packing', 'Custom message card'],
+  },
+  {
+    id: 12,
+    name: 'Valentine Special Box',
+    description: 'Romantic treats for your loved one',
+    image: '/images/treatboxes/box12.jpg',
+    details: ['Heart-shaped chocolates', 'Red roses', 'Custom love note'],
+  },
+  {
+    id: 13,
+    name: 'Eid Mubarak Box',
+    description: 'Festive treats for Eid celebrations',
+    image: '/images/treatboxes/box13.jpg',
+    details: ['Assorted sweets', 'Festive packing', 'Custom greeting'],
+  },
+  {
+    id: 14,
+    name: 'Birthday Surprise Box',
+    description: 'Complete birthday celebration box',
+    image: '/images/treatboxes/box14.jpg',
+    details: ['Mini cake + chocolates', 'Balloons', 'Custom name'],
+  },
+  {
+    id: 15,
+    name: 'Anniversary Box',
+    description: 'Romantic anniversary gift box',
+    image: '/images/treatboxes/box15.jpg',
+    details: ['Chocolates + roses', 'Custom card', 'Elegant packing'],
+  },
+  {
+    id: 16,
+    name: 'Kids Treat Box',
+    description: 'Fun treats for kids',
+    image: '/images/treatboxes/box16.jpg',
+    details: ['Candies & chocolates', 'Cartoon toppers', 'Colorful packing'],
+  },
+  {
+    id: 17,
+    name: 'Chocolate Bouquet Box',
+    description: 'Chocolates arranged as bouquet',
+    image: '/images/treatboxes/box17.jpg',
+    details: ['Chocolate bouquet', 'Custom wrapping', 'Gift ready'],
+  },
+  {
+    id: 18,
+    name: 'Cookie Assortment Box',
+    description: 'Assorted cookies in a box',
+    image: '/images/treatboxes/box18.jpg',
+    details: ['Assorted cookies', 'Freshly baked', 'Custom packing'],
+  },
+  {
+    id: 19,
+    name: 'Kunafa Box',
+    description: 'Traditional kunafa dessert box',
+    image: '/images/treatboxes/box19.jpg',
+    details: ['Fresh kunafa', 'Custom size', 'Gift packing'],
+  },
+  {
+    id: 20,
+    name: 'Mixed Sweet Box',
+    description: 'Assorted mithai and sweets',
+    image: '/images/treatboxes/box20.jpg',
+    details: ['Assorted mithai', 'Traditional sweets', 'Custom packing'],
+  },
 ]
 
+// ============================================================
+// BASKETS & CRATES — 20 Products
+// ============================================================
 export const baskets = [
   {
     id: 1,
@@ -288,9 +522,84 @@ export const baskets = [
     image: '/images/baskets/basket10.jpg',
     details: ['Custom favor cards', 'Personalized packing', 'Event ready'],
   },
+  // ============ NAYE 10 PRODUCTS ============
+  {
+    id: 11,
+    name: 'Luxury Gift Hamper',
+    description: 'Premium hamper with assorted goodies',
+    image: '/images/baskets/basket11.jpg',
+    details: ['Assorted chocolates & dry fruits', 'Premium basket', 'Custom ribbon & card'],
+  },
+  {
+    id: 12,
+    name: 'Anniversary Special Basket',
+    description: 'Romantic basket for anniversaries',
+    image: '/images/baskets/basket12.jpg',
+    details: ['Red roses & chocolates', 'Candle & card', 'Custom message'],
+  },
+  {
+    id: 13,
+    name: 'Baby Shower Basket',
+    description: 'Cute basket for baby showers',
+    image: '/images/baskets/basket13.jpg',
+    details: ['Baby-themed goodies', 'Soft toys', 'Blue/Pink theme'],
+  },
+  {
+    id: 14,
+    name: 'Wedding Gift Basket',
+    description: 'Elegant basket for weddings',
+    image: '/images/baskets/basket14.jpg',
+    details: ['Premium dry fruits', 'Custom card', 'Elegant packing'],
+  },
+  {
+    id: 15,
+    name: 'Corporate Gift Basket',
+    description: 'Professional gift hamper for clients',
+    image: '/images/baskets/basket15.jpg',
+    details: ['Branded goodies', 'Custom card', 'Bulk available'],
+  },
+  {
+    id: 16,
+    name: 'Chocolate Lovers Basket',
+    description: 'All chocolate basket',
+    image: '/images/baskets/basket16.jpg',
+    details: ['Assorted chocolates', 'Custom chocolate types', 'Gift ready'],
+  },
+  {
+    id: 17,
+    name: 'Fruit & Flowers Basket',
+    description: 'Fresh fruits with flowers',
+    image: '/images/baskets/basket17.jpg',
+    details: ['Seasonal fruits', 'Fresh flowers', 'Custom size'],
+  },
+  {
+    id: 18,
+    name: 'Spa Gift Basket',
+    description: 'Relaxing spa-themed gift basket',
+    image: '/images/baskets/basket18.jpg',
+    details: ['Spa products', 'Candles', 'Relaxing vibe'],
+  },
+  {
+    id: 19,
+    name: 'Ramadan Gift Basket',
+    description: 'Special basket for Ramadan',
+    image: '/images/baskets/basket19.jpg',
+    details: ['Dates & dry fruits', 'Festive packing', 'Custom greeting'],
+  },
+  {
+    id: 20,
+    name: 'New Year Gift Basket',
+    description: 'Celebrate new year with this basket',
+    image: '/images/baskets/basket20.jpg',
+    details: ['Premium goodies', 'Festive theme', 'Custom message'],
+  },
 ]
 
-export const categories = [
+// ============================================================
+// CATEGORIES (Home Page Cards)
+// ============================================================
+
+ export const categories = [
   {
     name: 'Cakes',
     description: 'Custom weight, design, flavours, frosting & toppers for every theme',
@@ -314,5 +623,53 @@ export const categories = [
     description: 'Custom goodies, themes & premium packing for gifting',
     image: '/images/category-baskets.jpg',
     link: '/baskets',
+  },
+  {
+    name: 'Treats & Desserts',
+    description: 'Dessert cups, til ke ladoo & custom dessert boxes',
+    image: '/images/category-treatsdesserts.jpg',
+    link: '/treats-desserts',
+  },
+]
+
+// ============================================================
+// TREATS & DESSERTS — 3 Products
+// ============================================================
+export const treatsDesserts = [
+  {
+    id: 1,
+    name: 'Dessert Cup',
+    description: 'Layered dessert cup with chocolate & cream',
+    image: '/images/treatsdesserts/treat1.jpg',
+    details: [
+      'Brownie Delight / Coffee Crunch / Cookie N Cream',
+      'Single serving (Qty 6)',
+      'Family pack available',
+      'Custom toppings & sauces',
+    ],
+  },
+  {
+    id: 2,
+    name: 'Til ke Ladoo',
+    description: 'Traditional winter special til ke ladoo (Qty 10)',
+    image: '/images/treatsdesserts/treat2.jpg',
+    details: [
+      'Qty 10 pieces',
+      'Winter special',
+      'Made with sesame & jaggery',
+      'Custom packing available',
+    ],
+  },
+  {
+    id: 3,
+    name: 'Custom Dessert Box',
+    description: 'Personalized dessert box for any occasion',
+    image: '/images/treatsdesserts/treat3.jpg',
+    details: [
+      'Custom dessert selection',
+      'Extra chocolate sauce & chips',
+      'Sprinkles & toppings',
+      'Elegant gift packing',
+    ],
   },
 ]

@@ -6,6 +6,7 @@ import Cakes from './pages/Cakes'
 import Brownies from './pages/Brownies'
 import TreatBoxes from './pages/TreatBoxes'
 import Baskets from './pages/Baskets'
+import TreatsDesserts from './pages/TreatsDesserts'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/brownies" element={<Brownies />} />
           <Route path="/treat-boxes" element={<TreatBoxes />} />
           <Route path="/baskets" element={<Baskets />} />
+          <Route path="/treats-desserts" element={<TreatsDesserts />} />
         </Routes>
       </main>
       <Footer />

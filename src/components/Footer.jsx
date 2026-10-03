@@ -28,16 +28,16 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div>
-          <h4 className="font-bold text-lg mb-4 text-sweet-gold">Categories</h4>
-          <ul className="space-y-2 text-white/80 text-sm">
-            <li><Link to="/cakes" className="hover:text-sweet-gold transition-colors">Cakes</Link></li>
-            <li><Link to="/brownies" className="hover:text-sweet-gold transition-colors">Brownies</Link></li>
-            <li><Link to="/treat-boxes" className="hover:text-sweet-gold transition-colors">Treat Boxes</Link></li>
-            <li><Link to="/baskets" className="hover:text-sweet-gold transition-colors">Baskets & Crates</Link></li>
-          </ul>
-        </div>
-
+      <div>
+  <h4 className="font-bold text-lg mb-4 text-sweet-gold">Categories</h4>
+  <ul className="space-y-2 text-white/80 text-sm">
+    <li><Link to="/cakes" className="hover:text-sweet-gold transition-colors">Cakes</Link></li>
+    <li><Link to="/brownies" className="hover:text-sweet-gold transition-colors">Brownies</Link></li>
+    <li><Link to="/treat-boxes" className="hover:text-sweet-gold transition-colors">Treat Boxes</Link></li>
+    <li><Link to="/baskets" className="hover:text-sweet-gold transition-colors">Baskets & Crates</Link></li>
+    <li><Link to="/treats-desserts" className="hover:text-sweet-gold transition-colors">Treats & Desserts</Link></li>
+  </ul>
+</div>
         <div>
           <h4 className="font-bold text-lg mb-4 text-sweet-gold">Contact</h4>
           <ul className="space-y-3 text-white/80 text-sm">

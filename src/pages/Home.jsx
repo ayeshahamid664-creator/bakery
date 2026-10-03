@@ -32,7 +32,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             {categories.map((cat, i) => (
               <CategoryCard key={i} category={cat} index={i} />
             ))}
